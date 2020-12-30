@@ -1,5 +1,5 @@
 # Gender-Classification
-
+---
 ### Introduction
 
 This is an implementation in pytorch of deep learning models for gender classification. 
@@ -26,22 +26,34 @@ To train the Fully Connected model, first, is necessary to create the features. 
 python FNN_features_extraction.py -t
 ```
 
-After the feature creation you can simply run the training by:
+Settings can be changed in the **config.py** file.
+
+To train the Convolutional 2D model, first, is necessary to create mel spectogram images from the audios.
+Just run the folling script:
+
+```
+python CNN_2D.py.py --construct_images
+```
+
+Then, to finally train the models, you can just run:
+
+For the Fully Connected model:
 
 ```
 python FNN.py -train
 ```
 
-Settings can be changed in the **config.py** file.
-
-To train the other two models, you can just follow the FC example:
+For the 1D Convolutional:
 
 ```
 python CNN_1D.py -train
 ```
 
-and
+For the 2D Convolutional:
 
 ```
 python CNN_2D.py -train
 ```
+
+### Contact
+e-mail: alef_iury_c.c@discente.ufg.br
