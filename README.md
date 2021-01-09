@@ -4,7 +4,7 @@
 
 This is an implementation in pytorch of deep learning models for gender classification. 
 
-There are three different models: Fully Connected, 1D Convolution and 2D Convolutional.
+There are three different models: Fully Connected, 1D CNN (Convolution Neural Network) and 2D CNN.
 
 ### Data
 The Librispeech corpus was used.
