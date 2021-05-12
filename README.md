@@ -1,12 +1,12 @@
-# Gender-Classification
+# Automatic Gender Classification
 ---
-### Introduction
+## Introduction
 
 This is an implementation in pytorch of deep learning models for automatic gender classification. 
 
 There are three different models: Fully Connected, 1D CNN (Convolution Neural Network) and 2D CNN.
 
-### Data
+## Data
 The Librispeech corpus was used in the experiments.
 **The
 following script downloads and prepares the data**:
@@ -15,11 +15,10 @@ following script downloads and prepares the data**:
 ./download_clean_datasets.sh
 ```
 
-
 Or alternatively download the dataset, convert the wav files to 16kHz PCM 16 bits
 and set the 'train', 'clean' and 'dev' directories.
 
-### Training
+## Training
 To train the Fully Connected model,first, is necessary to extract the features. Run the following script:
 
 ```
@@ -55,5 +54,5 @@ python CNN_1D.py -train
 python CNN_2D.py -train
 ```
 
-### Contact
+## Contact
 e-mail: alef_iury_c.c@discente.ufg.br
