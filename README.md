@@ -78,17 +78,18 @@ The relevant information related with the training configuration can be found an
 If you use this code for your research, please consider citing:
 
 ```
-@INPROCEEDINGS{219528,
-    AUTHOR="Alef Iury Siqueira Ferreira and Frederico de Oliveira and Nadia Silva and Anderson Soares",
-    TITLE="A Comparison of Deep Learning Architectures for Automatic Gender Recognition from Audio Signals",
-    BOOKTITLE="ENIAC 2021 () ",
-    ADDRESS="",
-    DAYS="29-3",
-    MONTH="nov",
-    YEAR="2021",
-    ABSTRACT="Automatic gender recognition from speech is a problem related to the area of speech analysis and has a variety of applications thats extends from the personalisation of product recommendation to forensics. Identifying the efficiency and costs of different approaches that deal with this problem is imperative. This work aims to investigate and compare the efficiency and costs of different deep learning architectures in the task of gender recognition from speech. The results show that the one-dimensional convolutional model achieves the best results. However, experiments conducted demonstrate that the fully connected model has similar results, using less memory and trained in much less time compared to the one-dimensional convolutional model.",
-    KEYWORDS="Applications of Artificial Intelligence; Artificial Neural Networks; Deep Learning; Machine Learning",
-    URL="http://XXXXX/219528.pdf"
+@inproceedings{eniac,
+ author = {Alef Ferreira and Frederico Oliveira and Nádia Silva and Anderson Soares},
+ title = {A Comparison of Deep Learning Architectures for Automatic Gender Recognition from Audio Signals},
+ booktitle = {Anais do XVIII Encontro Nacional de Inteligência Artificial e Computacional},
+ location = {Evento Online},
+ year = {2021},
+ keywords = {},
+ issn = {0000-0000},
+ pages = {715--726},
+ publisher = {SBC},
+ address = {Porto Alegre, RS, Brasil},
+ url = {https://sol.sbc.org.br/index.php/eniac/article/view/18297}
 }
 ```
 
